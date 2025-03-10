@@ -10,7 +10,7 @@ A high-performance **Netflix Clone** built using **React + Vite**, featuring a m
 - **Smooth Video Playback**
 - **Optimized Performance with Vite**
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend:** React, Vite, Tailwind CSS
 - **State Management:** Redux Toolkit / Context API
