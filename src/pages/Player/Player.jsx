@@ -6,7 +6,7 @@ import hero_title from '../../assets/title.webp'
 import netflix_title from '../../assets/titl.webp'
 import play from '../../assets/play.png'
 import info from '../../assets/info-button.png'
-import Titlecards from '../../components/Titlecards/titlecards';
+import Titlecards from '../../components/Titlecards/Titlecards';
 import Footer from '../../components/footer/footer'
 
 
