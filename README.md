@@ -2,7 +2,7 @@
 
 A high-performance **Netflix Clone** built using **React + Vite**, featuring a modern UI, authentication, and movie streaming functionality.
 
-## 🚀 Features
+## Features
 
 - **User Authentication** (Sign up, Login, Logout)
 - **Browse Movies & TV Shows** (Trending, Popular, Top-Rated)
@@ -18,7 +18,7 @@ A high-performance **Netflix Clone** built using **React + Vite**, featuring a m
 - **Authentication:** Firebase / Auth0
 - **Deployment:** Vercel / Netlify / Firebase Hosting
 
-## 📌 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -49,32 +49,7 @@ A high-performance **Netflix Clone** built using **React + Vite**, featuring a m
    npm run build
    ```
 
-## 🎬 API Integration (TMDB)
-
-- Sign up on [TMDB](https://www.themoviedb.org/) and get an API key.
-- Use the API key to fetch movies & TV shows.
-- Example API request:
-  ```js
-  fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${import.meta.env.VITE_TMDB_API_KEY}`)
-    .then(response => response.json())
-    .then(data => console.log(data));
-  ```
-
-## 📦 Folder Structure
-```
-netflix-clone/
-├── src/
-│   ├── components/    # Reusable UI components
-│   ├── pages/         # Pages like Home, Login, Movie Details
-│   ├── App.jsx        # Main App component
-│   ├── main.jsx       # Entry point
-├── public/            # Static assets
-├── .env               # Environment variables
-├── package.json       # Dependencies & scripts
-└── README.md          # Project documentation
-```
-
-## 📸 Screenshots
+## Screenshots
 
 ### Home Page
 ![Screenshot 2025-03-02 231308](https://github.com/user-attachments/assets/2152ba3e-4c79-478e-bfbc-1ae6b4f72a9b)
@@ -89,17 +64,13 @@ netflix-clone/
 ![Screenshot 2025-03-02 231428](https://github.com/user-attachments/assets/43cfcc2d-0e0c-4419-8523-a6d7746039fc)
 
 
-## 👨‍💻 Contributing
+## Contributing
 
 1. Fork the project
 2. Create a new branch (`git checkout -b feature-name`)
 3. Commit changes (`git commit -m 'Added a new feature'`)
 4. Push to your branch (`git push origin feature-name`)
 5. Open a pull request
-
-
-## 🌟 Show Your Support
-If you like this project, give it a ⭐ on GitHub!
 
 ---
 **Author:** SAKSHI  
